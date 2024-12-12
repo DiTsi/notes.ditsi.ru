@@ -1,0 +1,5 @@
+env
+project/site
+project/docs/*
+!project/docs/linux
+.git.bak

@@ -1,0 +1,57 @@
+site_name: Dmitry Tsybus / Docs
+site_url: https://docs.ditsi.ru
+# nav:
+plugins:
+  - search:
+  - exclude:
+      glob:
+        - "?/*"
+        - "ansible/*"
+        - "apple/*"
+        - "avr/*"
+        - "aws-amazon-web-services/*"
+        - "docker/*"
+        - "go/*"
+        - "google/*"
+        - "grafana/*"
+        - "homeassistant/*"
+        - "howto/*"
+        - "jenkins/*"
+        # - "linux/*"
+        - "kubernetes/*"
+        - "microsoft/*"
+        - "mikrotik/*"
+        - "nginx/*"
+        - "os/*"
+        - "postgresql/*"
+        - "problems/*"
+        - "prometheus-alertmanager/*"
+        - "python/*"
+        - "rabbitmq/*"
+        - "SRE/*"
+        - "stm32/*"
+        - "windows/*"
+        - "work/*"
+      # regex:
+      #   - 'linux/[g-z].*\.md$'
+
+# social:
+#   cards: false
+#   cards_layout_options:
+#     background_color: blue # Change background color
+#     background_image: null # Remove background image
+
+extra:
+  analytics:
+    provider: google
+    property: G-VKYGDZ78CK
+
+theme:
+  name: material
+  features:
+    - search-suggest
+    - search.highlight
+    - search.share
+    - navigation.instant
+    - navigation.tabs
+    - header.autohide
