@@ -1,14 +1,5 @@
 # elasticsearch
 
-## links
-[Heap Size](https://www.elastic.co/guide/en/elasticsearch/reference/master/heap-size.html)
-
-[Shrinking an index](https://www.elastic.co/guide/en/elasticsearch/reference/6.8/indices-shrink-index.html)
-
-[Show all indices](https://www.elastic.co/guide/en/elasticsearch/reference/7.5/cat-indices.html)
-
-[Reindex](https://www.elastic.co/guide/en/elasticsearch/reference/5.4/docs-reindex.html)
-
 ## Commands
 
 ### nodes
@@ -52,3 +43,12 @@ curl -X POST "http://<elasticsearch_host>:9200/_cluster/reroute" -H 'Content-Typ
 # show allocation for unassigned shards
 curl "http://elastic:password@localhost:9200/_cluster/allocation/explain?pretty"
 ```
+
+## links
+[Heap Size](https://www.elastic.co/guide/en/elasticsearch/reference/master/heap-size.html)
+
+[Shrinking an index](https://www.elastic.co/guide/en/elasticsearch/reference/6.8/indices-shrink-index.html)
+
+[Show all indices](https://www.elastic.co/guide/en/elasticsearch/reference/7.5/cat-indices.html)
+
+[Reindex](https://www.elastic.co/guide/en/elasticsearch/reference/5.4/docs-reindex.html)
