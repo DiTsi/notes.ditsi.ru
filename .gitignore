@@ -1,5 +1,4 @@
 env
-project/site
-project/docs/*
-!project/docs/linux
+docs/*
+!docs/linux
 .git.bak
