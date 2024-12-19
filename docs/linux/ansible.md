@@ -2,6 +2,15 @@
 
 ## Commands
 
+### Galaxy
+
+```bash
+# install requirements.txt
+ansible-galaxy install -p roles -f -r requirements.yml
+```
+
+### Vault
+
 ```bash
 # see password stored in file
 ansible-vault view keyfile
