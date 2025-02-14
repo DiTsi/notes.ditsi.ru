@@ -29,7 +29,7 @@ su postgres
 ssh-keygen -t rsa
 ```
 
-add barman public key to ~/.ssh/authorized\_keys  
+add barman public key to ~/.ssh/authorized_keys  
 install barman-cli and create barman role
 
 ```bash
@@ -47,7 +47,7 @@ synchronous_standby_names = 'barman_receive_wal'
 synchronous_commit = local
 ```
 
-/etc/postgresql/9.6/main/pg\_hba.conf:
+/etc/postgresql/9.6/main/pg_hba.conf:
 
 ```bash
 host replication barman <barman's ip>/32 md5
@@ -81,7 +81,7 @@ su barman
 ssh-keygen -t rsa
 ```
 
-add pg public key to ~/.ssh/authorized\_keys
+add pg public key to ~/.ssh/authorized_keys
 
 setup barman
 
@@ -151,7 +151,7 @@ su postgres
 ssh-keygen -t rsa
 ```
 
-add barman public key to ~/.ssh/authorized\_keys  
+add barman public key to ~/.ssh/authorized_keys  
 install barman-cli and create barman role
 
 ```bash
@@ -169,7 +169,7 @@ max_wal_senders = 10
 # synchronous_commit = local
 ```
 
-/etc/postgresql/9.6/main/pg\_hba.conf:
+/etc/postgresql/9.6/main/pg_hba.conf:
 
 ```ini
 host replication barman <barman's ip>/32 md5
@@ -203,7 +203,7 @@ su barman
 ssh-keygen -t rsa
 ```
 
-add pg public key to ~/.ssh/authorized\_keys
+add pg public key to ~/.ssh/authorized_keys
 
 setup barman
 

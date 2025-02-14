@@ -27,8 +27,8 @@ Web UI:
 
 To add new S3 bucket as backend you must add two files:
 
-- /etc/bareos/bareos-sd.d/device/S3\_device.conf
-- /etc/bareos/bareos-dir.d/storageS3\_storage.conf
+- /etc/bareos/bareos-sd.d/device/S3_device.conf
+- /etc/bareos/bareos-dir.d/storageS3_storage.conf
 
 ### add client
 

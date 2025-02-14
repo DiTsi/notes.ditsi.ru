@@ -3,6 +3,8 @@ docs/*
 !docs/docker
 !docs/google
 !docs/howto
+!docs/kubernetes
+!docs/python
 !docs/software
 !docs/os
 !docs/index.md

@@ -2,7 +2,7 @@
 
 ## Configuration
 
-Put file ditsi\_work.conf in /etc/openvpn/client
+Put file ditsi_work.conf in /etc/openvpn/client
 
 ## Commands
 

@@ -16,7 +16,7 @@ sed '2!d' qweew
 sed '47,108!d' place
 
 # ";" connects several sed command actions:
-sed '1d; s/\t//; s/\ /\_/g'
+sed '1d; s/\t//; s/\ /_/g'
 
 # remove characters in double brackets:
 sed 's/[:;.,]//'

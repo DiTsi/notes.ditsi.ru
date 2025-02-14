@@ -56,13 +56,13 @@ Host zoran
 Host metabase
     HostName 10.110.16.70
 
-Host x5.ru
-  IdentityFile ~/.ssh/work/id_rsa.x5
+Host domain.ru
+  IdentityFile ~/.ssh/work/id_rsa.domain
 
-Host x5
+Host somehost
   User dmitry.tsybus-3
   Hostname 192.168.139.237
-  IdentityFile /home/ditsi/.ssh/work/id_rsa.x5
+  IdentityFile /home/ditsi/.ssh/work/id_rsa.somehost
   IdentitiesOnly yes
 
 Host v1*

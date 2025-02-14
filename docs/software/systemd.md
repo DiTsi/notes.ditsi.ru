@@ -16,7 +16,7 @@ systemd-analyze cat-config systemd/journald.conf
 
 ## Units
 
-xbacklight\_permissions.service
+xbacklight_permissions.service
 
 ```ini
 [Unit]
@@ -44,7 +44,7 @@ ExecStart=/usr/bin/hdparm -B 255 /dev/sda
 WantedBy=sleep.target
 ```
 
-cpufreq\_permissions.service
+cpufreq_permissions.service
 
 ```ini
 [Unit]

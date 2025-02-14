@@ -9,7 +9,7 @@ cgcreate -g memory:myGroup
 echo 500M > /sys/fs/cgroup/memory/myGroup/memory.limit_in_bytes
 echo 5G > /sys/fs/cgroup/memory/myGroup/memory.memsw.limit_in_bytes
 ```
-will create a control group named `myGroup`, cap the set of processes run under `myGroup` up to 500 MB of physical memory with `memory.limit_in_bytes` and up to 5000 MB of physical and swap memory together with `memory.memsw.limit_in_bytes`. More info about these options can be found here: [https://access.redhat.com/documentation/en-us/red\_hat\_enterprise\_linux/6/html/resource\_management\_guide/sec-memory](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/sec-memory)
+will create a control group named `myGroup`, cap the set of processes run under `myGroup` up to 500 MB of physical memory with `memory.limit_in_bytes` and up to 5000 MB of physical and swap memory together with `memory.memsw.limit_in_bytes`. More info about these options can be found here: [https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/sec-memory](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/sec-memory)
 
 To run a process under the control group:
 
