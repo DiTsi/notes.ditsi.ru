@@ -1,6 +1,8 @@
 env
 docs/*
-!docs/linux
+!docs/google
+!docs/howto
+!docs/software
 !docs/os
 !docs/index.md
 .git.bak

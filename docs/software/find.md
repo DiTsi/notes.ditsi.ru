@@ -2,9 +2,12 @@
 
 ## Commands
 
-Find directories and change their permissions:
 ```bash
+# Find directories and change their permissions:
 find ./ -type d -exec chmod -x '{}' \;
+
+# number of files in the folder
+find . -xdev -type f | cut -d "/" -f 2 | sort | uniq -c | sort -n
 ```
 
 ## Examples:

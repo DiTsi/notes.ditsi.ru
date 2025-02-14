@@ -1,6 +1,12 @@
 # vscode
 
-## Commands
+## multiline search (regex)
+
+search between `first_word` and `last_word`:
+```
+first_word(.*)(.|\n)+?last_word
+```
+Construction `(.|\n)+?last_word` tells that regex will go over all symbols and new lines until `last_word`.
 
 ## Flatpak
 
