@@ -1,33 +1,10 @@
 site_name: Dmitry Tsybus / Docs
 site_url: https://docs.ditsi.ru
-# nav:
 plugins:
   - search:
   - exclude:
       glob:
         - "ansible/*"
-        - "grafana/*"
-        - "homeassistant/*"
-        - "jenkins/*"
-        - "microsoft/*"
-        - "mikrotik/*"
-        - "nginx/*"
-        - "postgresql/*"
-        - "problems/*"
-        - "prometheus-alertmanager/*"
-        - "rabbitmq/*"
-        - "SRE/*"
-        - "stm32/*"
-        - "windows/*"
-        - "work/*"
-      # regex:
-      #   - 'linux/[g-z].*\.md$'
-
-# social:
-#   cards: false
-#   cards_layout_options:
-#     background_color: blue # Change background color
-#     background_image: null # Remove background image
 
 extra:
   analytics:

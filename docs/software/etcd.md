@@ -16,7 +16,7 @@ Space quota info: [https://etcd.io/docs/v3.2.17/op-guide/maintenance/](https://e
 
 #### No space
 
-<p class="callout warning">2020-12-09 23:13:30.509732 W | etcdserver: failed to apply request "header:&lt;ID:17070461351733445769 &gt; lease_grant:&lt;ttl:20-second id:6ce67627fe1b4488&gt;" with response "" took (2.78µs) to execute, err is etcdserver: no space</p>
+<p class="callout warning">2020-12-09 23:13:30.509732 W | etcdserver: failed to apply request "header:<ID:17070461351733445769 > lease_grant:<ttl:20-second id:6ce67627fe1b4488>" with response "" took (2.78µs) to execute, err is etcdserver: no space</p>
 
 <p class="callout success">Steps to fix:</p>
 

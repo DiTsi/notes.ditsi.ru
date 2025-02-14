@@ -1,14 +1,2 @@
 env
-docs/*
-!docs/aws
-!docs/devices
-!docs/docker
-!docs/go
-!docs/google
-!docs/howto
-!docs/kubernetes
-!docs/python
-!docs/software
-!docs/os
-!docs/index.md
-.git.bak
+docs/ansible

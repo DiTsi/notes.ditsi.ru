@@ -10,7 +10,7 @@ First of all you need [to create service account](https://cloud.google.com/iam/d
 
 Add "Storage Admin" role to your service account [here](https://console.cloud.google.com/iam-admin)
 
-Download JSON for service account by [selecting](https://console.cloud.google.com/iam-admin/serviceaccounts) "Menu" \[dots\] -&gt; "Create Key"
+Download JSON for service account by [selecting](https://console.cloud.google.com/iam-admin/serviceaccounts) "Menu" \[dots\] -> "Create Key"
 
 ## Commands
 
