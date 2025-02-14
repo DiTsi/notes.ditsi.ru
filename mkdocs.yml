@@ -5,12 +5,7 @@ plugins:
   - search:
   - exclude:
       glob:
-        - "?/*"
         - "ansible/*"
-        - "apple/*"
-        - "avr/*"
-        - "aws-amazon-web-services/*"
-        - "go/*"
         - "grafana/*"
         - "homeassistant/*"
         - "jenkins/*"

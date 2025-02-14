@@ -1,6 +1,9 @@
 env
 docs/*
+!docs/aws
+!docs/devices
 !docs/docker
+!docs/go
 !docs/google
 !docs/howto
 !docs/kubernetes
