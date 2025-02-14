@@ -22,7 +22,7 @@ plugins:
         - "microsoft/*"
         - "mikrotik/*"
         - "nginx/*"
-        - "os/*"
+        # - "os/*"
         - "postgresql/*"
         - "problems/*"
         - "prometheus-alertmanager/*"
