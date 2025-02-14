@@ -10,7 +10,6 @@ plugins:
         - "apple/*"
         - "avr/*"
         - "aws-amazon-web-services/*"
-        - "docker/*"
         - "go/*"
         - "grafana/*"
         - "homeassistant/*"
