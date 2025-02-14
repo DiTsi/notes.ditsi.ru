@@ -1,5 +1,5 @@
-site_name: Dmitry Tsybus / Docs
-site_url: https://docs.ditsi.ru
+site_name: Dmitry Tsybus / Notes
+site_url: https://notes.ditsi.ru
 plugins:
   - search:
   - exclude:
@@ -9,7 +9,7 @@ plugins:
 extra:
   analytics:
     provider: google
-    property: G-VKYGDZ78CK
+    property: G-0K7SE0P6FC
 
 theme:
   name: material
