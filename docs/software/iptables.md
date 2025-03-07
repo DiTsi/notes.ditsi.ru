@@ -80,4 +80,7 @@ iptables -A INPUT -p tcp -m tcp --dport 21 -j ACCEPT
 iptables -A INPUT -s 123.45.67.89 -j DROP
 iptables -A INPUT -s example.ru -j DROP
 iptables -A INPUT -p tcp --sport 80 -j ACCEPT
+
+# See live non zero metrics
+watch -d -n 1  "iptables -L FORWARD -v | awk '\$1 != 0'"
 ```

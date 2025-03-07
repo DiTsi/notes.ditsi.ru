@@ -1,9 +1,11 @@
 # nc
 
-### Commands
+## Commands
 
 ```bash
-# UDP
-nc -4 -u -l 15673
-nc -4 -u localhost 15673
+# Check TCP
+nc -zv 192.168.122.111 8008
+
+# Check UDP
+nc -zvu 192.168.122.111 1812
 ```
