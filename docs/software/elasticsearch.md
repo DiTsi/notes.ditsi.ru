@@ -15,6 +15,9 @@ curl -X GET "http://elastic:password@localhost:9200/_cat/nodes?h=name,ip,node.ro
 # show all indexes
 curl "http://elastic:password@localhost:9200/_cat/indices?v"
 
+# show health
+curl -X GET "http://localhost:9200/_cluster/health?pretty"
+
 # list indices by size
 curl "http://elastic:password@localhost:9200/_cat/indices?pretty&s=store.size:desc"
 
