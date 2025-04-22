@@ -1,5 +1,5 @@
 site_name: Dmitry Tsybus / Notes
-site_url: https://notes.ditsi.ru
+site_url: https://notes.dmitrytsybus.com
 plugins:
   - search:
   - exclude:
